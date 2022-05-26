@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website of Shedeur#1892">
+    <title>Shedeur</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pfp.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/091da124de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="logoholder col-xs-12">
+        <img src="pfp.jpg" alt="pfp" class="logo">
+        <h1>Shedeur</h1>
+        <hr>
+    </div>
+    <div class="welcome">
+        <h2>Hello comrade, welcome! I am Shedeur. Allow me to show you around my website.</h2>
+        <button id="goAhead" onclick="firstPage()">Go ahead!</button>
+    </div>
+
+    <section id="firstPage" class="notShown">
+        <div class="talk">
+            <h2>First we will take a look about me!</h2>
+            <button class="button" onclick="showAbout()">Ok</button>
+        </div>
+
+        <div id="about" class="notShown">
+            <h2>Who is Shedeur (They/them) ?</h2>
+            <p>I am a speedcuber, JavaScript coder (currently learning Python), ukulelist, and student. I like birds, and I have 2 pet chickens. I love talking and learning about geopolitics and sometimes politics. My favorite sport is swimming, and my favorite hobby is coding. I only speak English, and I am from the Philippines.</p>
+
+            <div class="rightText">
+                <h2>What fandoms is Shedeur in?</h2>
+                <p>Well, to name a few, I am in: <br>
+                The Owl House, Avatar: TLA, Hamilton, Percy Jackson, Amphibia, The Ghost and Molly Mcgee, Soul, Encanto, and Gravity Falls.</p>
+                <button class="nextPage" onclick="pageTwo()">Next Page</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="secondPage" class="notShown">
+        <div class="talk">
+            <h2>Now we will look at my social medias.</h2>
+            <button onclick="showSocials()" class="button">Ok</button>
+        </div>
+        <div class="notShown" id="socials">
+            <h2>Social Medias</h2>
+            <h3><i class="fab fa-instagram"></i> <a href="https://instagram.com/birbs.4.life" target="_blank">@birbs.4.life</a></h3>
+            <h3><i class="fab fa-twitter"></i> <a href="https://twitter.com/ShedeurB" target="_blank">@ShedeurB</a></h3>
+            <h3><i class="fab fa-reddit"></i> <a href="https://www.reddit.com/user/MongooseAdvanced2394" target="_blank">u/MongooseAdvanced2394</a></h3>
+            <h3><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCS5vGgmuyta1OZr2BPnPXFw" target="_blank">SpaceCuber</a></h3>
+            <div class="rightText">
+                <h3><i class="fab fa-twitch"></i> <a href="https://www.twitch.tv/space_cuber" target="_blank">@space_cuber</a></h3>
+                <h3><i class="fab fa-spotify"></i> <a href="https://open.spotify.com/user/h8pfzpeaquer9378vgb2enpeu" target="_blank">Shedeur</a></h3>
+                <h3><i class="fab fa-github"></i> <a href="https://github.com/ShedeurCoder" target="_blank">@ShedeurCoder</a></h3>
+                <h3><i class="fab fa-discord"></i> <a href="https://discord.gg/BNWJ7BNV5k" target="_blank">@Shedeur#1892</a></h3>
+                <button class="nextPage" onclick="pageThree()">Next Page</button>
+            </div>
+        </div>
+    </section>
+    <section id="thirdPage" class="notShown">
+        <div class="talk">
+            <h2>Well, now it is time to look at my music!</h2>
+            <button class="button" onclick="showMusic()">Ok</button>
+        </div>
+        <div class="notShown" id="music">
+            <h2>My music</h2>
+            <h3>Play on browser:</h3>
+            <a href="chillingwiththerats.mp3" target="_blank">Shedeur B - Chilling With The Rats</a> <br>
+            <a href="myfriendusedtoeatmycheese.mp3" target="_blank">Shedeur B - My Friend Used To Eat My Cheese</a>
+            <div class="rightText">
+                <h3>Play on another website:</h3>
+                <a href="https://www.youtube.com/playlist?list=PLOpfhcxUpqPPra4rcQMXJh6veMnxe-BAI" target="_blank">View on Youtube.</a> <br>
+                <a href="https://shedeurcoder.github.io/musicplayer" target="_blank">View on my own music player.</a>
+            </div>
+            <h5>More songs coming soon!</h5>
+            <small>&copy; Shedeur B. 2021 - 2022.</small>
+            <div class="rightText">
+                <button class="nextPage" onclick="lastPage()">Next Page</button>
+            </div>
+        </div>
+    </section>
+    <section id="lastPage" class="notShown">
+        <h2>That's the end of the site! Thank you, comrade, for joining me.</h2>
+        Before you go, here are some links! <br>
+        <a href="https://en.pronouns.page/@Shedeur" target="_blank">Pronouns Page</a> <br>
+        <a href="https://shedeurcoder.github.io/website" target="_blank">Old version of this site.</a>
+    </section>
+
+
+<script src="index.js"></script>
+</body>
+</html>
